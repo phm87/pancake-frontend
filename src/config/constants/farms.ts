@@ -33,6 +33,22 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 81,
+    lpSymbol: 'KMD-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xbc765fd113c5bdb2ebc25f711191b56bb8690aec', // TODO
+    },
+    tokenSymbol: 'KMD',
+    tokenAddresses: {
+      97: '',
+      56: '0x4338665cbb7b2485a8855a139b75d5e34ab0db94', // TODO
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+    isCommunity: false,
+  },
+  {
     pid: 80,
     lpSymbol: 'BOR-BNB LP',
     lpAddresses: {
